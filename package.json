@@ -19,6 +19,9 @@
     "type": "git",
     "url": "git+https://github.com/oxgr/crystalBridges-web.git"
   },
+  "engines": {
+    "node": "14.x"
+  },
   "author": "faadhi fauzi",
   "license": "ISC",
   "bugs": {

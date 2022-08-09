@@ -3,6 +3,9 @@ import { io } from 'https://cdn.socket.io/4.4.1/socket.io.esm.min.js';
 
 const model = {};
 
+const url = new URL( window.location.href );
+model.origin = url.origin;
+
 model.html = ( ( document ) => {
     // const input = document.getElementById( 'input' );
     // const submitButton = document.getElementById( 'btn-submit' );
@@ -61,7 +64,7 @@ model.html = ( ( document ) => {
         console.log( 'Sending packet...' );
         console.log( { Packet: packet } );
         
-        fetch('http://localhost:4060/textStream', {
+        fetch(model.origin + '/textStream', {
             method: 'POST', // or 'PUT',
             mode: 'cors',
             headers: {
