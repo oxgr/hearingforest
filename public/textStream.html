@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Stream</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+    <script src="./js/script.js" type="module"></script>
+
+    <div class="centered">
+        <div class="header">
+            <div class="title">
+                <h1>Text Stream</h1>
+                <p>by Rafael Lozano-Hemmer</p>
+            </div>
+            <hr>
+            <div class="subtitle">
+                <h2>Submit Entry</h2>
+            </div>
+            <hr>
+        </div>
+        <div class="content">
+            <div class="form">
+                <form id="input">
+                    <div class="form">
+                        <label for="name" hidden>Name</label>
+                        <input name="name" type="text" autocomplete="off" placeholder="Name">
+                    </div>
+                    <div class="form">
+                        <label for="email" hidden>Email</label>
+                        <input name="email" type="text" autocomplete="off" placeholder="Email">
+                    </div>
+                    <br>
+                    <div class="form">
+                        <label for="text" hidden>Tell a story...</label>
+                        <textarea 
+                            name="text"
+                            rows="8"
+                            cols="33"
+                            wrap="hard"
+                            maxlength="280"
+                            placeholder="Tell a story..."
+                            ></textarea>
+                    </div>
+                    <div class="form side">
+                        <p id="characterCount"></p>
+                    </div>
+                    <div class="form">
+                        <!-- <input class="btn" id="btn-submit" type="submit" value="Submit"></input> -->
+                        <button type="button" id="btn-submit">Submit</button>
+                    </div>
+                </form>
+                <div>
+                    <p id="submitted" hidden>Submitted!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

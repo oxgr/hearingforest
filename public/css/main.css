@@ -1,0 +1,171 @@
+body {
+    background-color: #101010;
+    color: white;
+    font-family: Palatino, "Palatino Linotype";
+    font-size: medium;
+
+    /* Change margin to add space around entire page. */
+    margin: 0vh 0vw;
+
+    display: flex;
+    justify-content: center;
+}
+
+.centered {
+
+    /* border-left: 1px solid white;
+    border-right: 1px solid white; */
+
+    /* flex-grow: 1; */
+    max-width: 840px;
+
+}
+
+.centered > div {
+
+
+}
+
+.centered > div > div {
+    margin: 0vh 5vw;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* line-height: 2em; */
+}
+
+.title {
+    padding: 1em 0em;
+}
+
+.menuBar {
+    margin: 1em;
+    font-size: 1em;
+    font-kerning: none;
+    line-height: 2em;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menuButton {
+    /* border: 1px solid white; */
+    /* flex-grow: 1; */
+}
+
+.dropdown {
+    /* display:inline-block; */
+}
+
+.dropbtn {
+    margin: 1em;
+    margin-bottom: 2em;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #101010;
+    border: 2px solid white;
+    border-top: 0;
+}
+
+.dropdown-content div {
+    padding: 0.4em 1em;
+    border-top: 2px solid white;
+}
+
+.dropdown-content div:hover {
+    background-color: #202020;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#entries {
+
+}
+
+.entry, .content {
+
+    padding: 1em 0em;
+
+}
+
+.form {
+
+}
+
+input[type=text],
+textarea,
+#btn-submit,
+.entryFooter > button {
+
+    margin: 0.5em 0em;
+    padding: 0.8em;
+    border: 2px solid white;
+    background-color: #101010;
+    font-family: inherit;
+    color: inherit;
+
+}
+
+textarea {
+
+    /* margin: 0.5em; */
+    font-size: 1.2em;
+    padding-left: 0.5em;
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+
+}
+
+#btn-submit {
+    color: white;
+}
+
+.entryHeader {
+    font-size: 0.8em;
+    line-height: 0.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.entryBody {
+    font-size: 1.2em;
+    line-height: 1.2em;
+    /* padding-top: 1em; */
+    margin: 0.8em;
+}
+
+.entryFooter {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.entryFooter > button {
+    margin-left: 1em;
+}
+
+h1, h2, h3 {
+    font-weight: normal; 
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+text-decoration: underline;
+}
+
+hr {
+    border: 0.5px solid white;
+}
+
+#entries > hr {
+    border: 1px solid white;
+}

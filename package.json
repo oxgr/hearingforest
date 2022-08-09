@@ -1,0 +1,28 @@
+{
+  "type": "module",
+  "name": "crystalbridges-web",
+  "description": "Website and backend for public submissions to Text Stream and Voice Forest as part of Listening Forest exhibition by Rafael Lozano-Hemmer at Crystal Bridges, Arkansas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oxgr/crystalBridges-web.git"
+  },
+  "author": "faadhi fauzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oxgr/crystalBridges-web/issues"
+  },
+  "homepage": "https://github.com/oxgr/crystalBridges-web#readme"
+}
