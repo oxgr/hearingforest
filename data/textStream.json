@@ -11,7 +11,7 @@
   {
     "name": "Crystal",
     "email": "bridges@netscape.net",
-    "input": "This is another example entry. This entry should look like it's verified.",
+    "input": "This is another example entry. This entry should look like it's verified. Verifying an entry means it now has the permission",
     "id": "d8e00cdb",
     "verified": true,
     "bookmarked": false,
@@ -20,7 +20,7 @@
   {
     "name": "Listening Forest",
     "email": "",
-    "input": "Here's another entry that's bookmarked!",
+    "input": "You can also bookmark an entry to save it for later. This is useful for entries that need a second look or ones that need to be remembered.",
     "id": "3724c344",
     "verified": false,
     "bookmarked": true,
@@ -33,6 +33,6 @@
   "id": "0b15280a",
   "verified": false,
   "bookmarked": false,
-  "deleted": true
+  "deleted": false
 }
 ]
