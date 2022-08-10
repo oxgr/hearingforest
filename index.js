@@ -102,9 +102,11 @@ app.post( '/textStream', ( req, res ) => {
 
 app.post( '/textStream/curate', ( req, res ) => {
 
-    console.log( '[HTTP]: POST request for /textStream/curate' )
+    console.log( '[HTTP]: POST request for /textStream/curate' );
 
     const { id, action } = req.body;
+  
+    console.log( `[HTTP]: POST id: ${id}, action: ${action}` );
 
     model.entries.textStream = getEntries( 'textStream' );
 
