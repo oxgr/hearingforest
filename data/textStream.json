@@ -1,42 +1,34 @@
 [
   {
-    "name": "Are You",
-    "email": "ifyouprefer@gmail.com",
-    "input": "One drink for one person. The sunlight is bare on the sun-dried balcony.",
-    "id": "b9fa1a6f",
-    "verified": true,
-    "bookmarked": false
-  },
-  {
-    "name": "Perhaps",
-    "email": "onemore@mail.com",
-    "input": "Entry into the universe of this work.",
-    "id": "654c756a",
-    "verified": true,
-    "bookmarked": true
-  },
-  {
-    "name": "What",
-    "email": "",
-    "input": "What happens if there is no email?",
-    "id": "595342aa",
+    "name": "Foo",
+    "email": "bar@mail.com",
+    "input": "This is an example entry.",
+    "id": "61301ce2",
     "verified": false,
     "bookmarked": false
   },
   {
-    "name": "",
+    "name": "Crystal",
+    "email": "bridges@netscape.net",
+    "input": "This is another example entry. This entry should look like it's verified.",
+    "id": "d8e00cdb",
+    "verified": true,
+    "bookmarked": false
+  },
+  {
+    "name": "Listening Forest",
     "email": "",
-    "input": "How about if there's no info at all?",
-    "id": "2ac9151e",
+    "input": "Here's another entry that should be bookmarked!",
+    "id": "3724c344",
     "verified": false,
     "bookmarked": true
   },
-  {
-    "name": "",
-    "email": "",
-    "input": "Hellollllfjdksla;fjdksla;fj kdls;ajfkldsajkfcld;jsakfl;djskal;fjdksla;fji4owjqf4wmqifojpi234qomfcjekwlahfiuceo;wmank; jfk jf98poe jkwo;l j kfl;djsa8ifo; jfk ld sjaifonpud 89aifdjsak l;jfd 98sao;jfl jf ;jd9sa pjf dsalkfjd sap fu. as;j klfdjsa f;d jsf l;uafl ;a",
-    "id": "17b3c417",
-    "verified": true,
-    "bookmarked": false
-  }
+{
+  "name": "Deleter",
+  "email": "",
+  "input": "If you press the X icon on the bottom-right of an entry, you can delete it from the archive. Be careful - once you delete an entry, it's gone forever!",
+  "id": "0b15280a",
+  "verified": false,
+  "bookmarked": false
+}
 ]
