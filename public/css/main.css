@@ -17,16 +17,14 @@ body {
     border-right: 1px solid white; */
 
     /* flex-grow: 1; */
+    width: 100%;
     max-width: 840px;
 
 }
 
-.centered > div {
+.centered>div {}
 
-
-}
-
-.centered > div > div {
+.centered>div>div {
     margin: 0vh 5vw;
     /* display: flex; */
     /* justify-content: center; */
@@ -35,7 +33,7 @@ body {
 }
 
 .title {
-    padding: 1em 0em;
+    padding: 1.5em 0em;
 }
 
 .menuBar {
@@ -58,8 +56,21 @@ body {
 }
 
 .dropbtn {
-    margin: 1em;
-    margin-bottom: 2em;
+    /* margin: 1em; */
+    /* margin-bottom: 2em; */
+    width: 120px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dropbtn * {
+    /* flex-grow: 1; */
+    margin-left: 0.5em;
+}
+
+.dropbtn .icon {
+    max-height: 1em;
+    margin-top: 0.5em;
 }
 
 .dropdown-content {
@@ -68,39 +79,51 @@ body {
     background: #101010;
     border: 2px solid white;
     border-top: 0;
+    z-index: 1;
 }
 
 .dropdown-content div {
     padding: 0.4em 1em;
     border-top: 2px solid white;
+    z-index: 2;
 }
 
-.dropdown-content div:hover {
+.clickable:hover {
     background-color: #202020;
+    cursor: pointer;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
-#entries {
+#entries {}
 
-}
-
-.entry, .content {
+.entry,
+.content {
 
     padding: 1em 0em;
 
 }
 
-.form {
+.formFinalRow {
+    display: flex;
+    justify-content: space-between;
+}
 
+.formFinalRow * {
+    flex-grow: 1;
+}
+
+#characterCount {
+    text-align: right;
+    margin: 1em 1.5em;
 }
 
 input[type=text],
 textarea,
 #btn-submit,
-.entryFooter > button {
+.entryFooter>button {
 
     margin: 0.5em 0em;
     padding: 0.8em;
@@ -126,6 +149,10 @@ textarea {
     color: white;
 }
 
+#entries>hr {
+    border: 1px solid white;
+}
+
 .entryHeader {
     font-size: 0.8em;
     line-height: 0.5em;
@@ -138,19 +165,30 @@ textarea {
     line-height: 1.2em;
     /* padding-top: 1em; */
     margin: 0.8em;
+    text-align: center;
+    word-wrap: break-word;
 }
 
 .entryFooter {
+    margin-top: 1em;
     display: flex;
     justify-content: flex-end;
 }
 
-.entryFooter > button {
+.entryFooter>button {
     margin-left: 1em;
+    padding: 0.5em;
 }
 
-h1, h2, h3 {
-    font-weight: normal; 
+.icon {
+    filter: invert(100%);
+    max-width: 1.2em;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: normal;
 }
 
 a {
@@ -158,14 +196,14 @@ a {
     text-decoration: none;
 }
 
-a:hover{
-text-decoration: underline;
+a:hover {
+    text-decoration: underline;
 }
 
 hr {
     border: 0.5px solid white;
 }
 
-#entries > hr {
-    border: 1px solid white;
+svg {
+    fill: white;
 }

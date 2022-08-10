@@ -3,8 +3,7 @@ import { io } from 'https://cdn.socket.io/4.4.1/socket.io.esm.min.js';
 
 const model = {};
 
-const url = new URL( window.location.href );
-model.origin = url.origin;
+model.origin = new URL( window.location.href ).origin;
 
 model.html = ( ( document ) => {
     // const input = document.getElementById( 'input' );
@@ -53,7 +52,6 @@ model.html = ( ( document ) => {
     }
     
     function submitButtonClicked( e ) {
-    
         
         const packet = {
             name: model.html.form.name.value,
@@ -64,7 +62,7 @@ model.html = ( ( document ) => {
         console.log( 'Sending packet...' );
         console.log( { Packet: packet } );
         
-        fetch(model.origin + '/textStream', {
+        fetch( model.origin + '/textStream', {
             method: 'POST', // or 'PUT',
             mode: 'cors',
             headers: {
