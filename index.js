@@ -6,7 +6,7 @@ import { randomBytes } from 'crypto'
 
 // Server
 const app = express();
-app.use( express.static( 'public', { extensions: ['html'] } ) );
+app.use( express.static( 'public', { extensions: ['html'] }  ) );
 app.use( express.json() );
 
 const PORT = process.env.PORT || 4060;

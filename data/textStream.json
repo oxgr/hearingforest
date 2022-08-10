@@ -29,7 +29,7 @@
 {
   "name": "Deleter",
   "email": "",
-  "input": "If you press the X icon on the bottom-right of an entry, you can delete it from the archive. Be careful - once you delete an entry, it's gone!",
+  "input": "If you press the X icon on the bottom-right of an entry, you can delete it from the archive. Be careful - once you delete an entry, it's gone forever!",
   "id": "0b15280a",
   "verified": false,
   "bookmarked": false,
