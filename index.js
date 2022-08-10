@@ -6,7 +6,7 @@ import { randomBytes } from 'crypto'
 
 // Server
 const app = express();
-app.use( express.static( 'public' , { extensions: ['html'] } ) );
+app.use( express.static( 'public' ) );
 app.use( express.json() );
 
 const PORT = process.env.PORT || 4060;
@@ -60,7 +60,7 @@ app.get( '/textStream/json/:filter', ( req, res ) => {
 
     console.log( `[HTTP]: GET request for /textStream/json/${filter}` )
 
-    model.entries.textStream = getEntries( 'textStream' );
+    model.entries.textStream = getEntries( 'textStream' ).filter( ( e ) => !!!e.deleted );
 
     let packet = [];
 
@@ -131,9 +131,10 @@ app.post( '/textStream/curate', ( req, res ) => {
             break;
 
         case 'delete':
+            targetEntry.deleted = !targetEntry.deleted;
             const index = model.entries.textStream.indexOf( targetEntry );
             console.log( 'index:', index );
-            model.entries.textStream.splice( model.entries.textStream.indexOf( targetEntry ), 1 );
+            // model.entries.textStream.splice( model.entries.textStream.indexOf( targetEntry ), 1 );
             break;
 
         default:
@@ -160,12 +161,11 @@ function handleInput( data = {}, route = '' ) {
     inputObj.id = randomBytes( 4 ).toString( 'hex' );
     inputObj.verified = false;
     inputObj.bookmarked = false;
+    inputObj.deleted = false;
 
     switch ( route ) {
 
         case '/textStream':
-
-            model.entries.textStream.push( inputObj ); // why cache entries?
 
             // Cut bracket and line break at the end before appending.
             const contents = readFileSync( model.filepaths.textStream );

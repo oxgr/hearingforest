@@ -5,7 +5,8 @@
     "input": "This is an example entry.",
     "id": "61301ce2",
     "verified": false,
-    "bookmarked": false
+    "bookmarked": false,
+    "deleted": false
   },
   {
     "name": "Crystal",
@@ -13,7 +14,8 @@
     "input": "This is another example entry. This entry should look like it's verified.",
     "id": "d8e00cdb",
     "verified": true,
-    "bookmarked": false
+    "bookmarked": false,
+    "deleted": false
   },
   {
     "name": "Listening Forest",
@@ -21,7 +23,8 @@
     "input": "Here's another entry that's bookmarked!",
     "id": "3724c344",
     "verified": false,
-    "bookmarked": true
+    "bookmarked": true,
+    "deleted": false
   },
 {
   "name": "Deleter",
@@ -29,6 +32,7 @@
   "input": "If you press the X icon on the bottom-right of an entry, you can delete it from the archive. Be careful - once you delete an entry, it's gone forever!",
   "id": "0b15280a",
   "verified": false,
-  "bookmarked": false
+  "bookmarked": false,
+  "deleted": true
 }
 ]
