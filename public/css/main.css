@@ -184,7 +184,8 @@ input[type="checkbox"] {
 .confirmationContainer > label > #checkboxContainer {
     display: flex;
     flex-grow: 1;
-    max-width: 5vw;
+    max-width: 50px;
+    min-width: 50px;
 }
 
 #btn-submit {
