@@ -180,11 +180,12 @@ input[type="checkbox"] {
 
 .confirmationContainer > label > #disclaimer {
     flex-grow: 1;
+  width: 80%
 }
 .confirmationContainer > label > #checkboxContainer {
     display: flex;
-    flex-grow: 2;
-    width: 20vw;
+    flex-grow: 1;
+    width: 5vw;
 }
 
 #btn-submit {
