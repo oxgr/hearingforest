@@ -73,8 +73,8 @@ async function showEntries( entries, parent ) {
         entryDiv.innerHTML = `
         <div class="entryHeader">
             <div class="entryHeaderLeft">
-                <p>${entry.name}</p>
-                <p>${entry.email}</p>
+                <p>${entry.name ? entry.name : ''}</p>
+                <p>${entry.email ? entry.email : ''}</p>
             </div>
             <div class="entryHeaderRight">
                 <p>#${entry.id}</p>
