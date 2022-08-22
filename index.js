@@ -233,8 +233,6 @@ function handleInput( data = {}, route = '' ) {
 
     }
 
-    console.log( inputObj );
-
     // Cut bracket and line break at the end before appending.
     const contents = readFileSync( model.filepaths[ route ] );
     const len = contents.length - 2;

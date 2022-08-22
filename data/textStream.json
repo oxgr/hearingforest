@@ -4,7 +4,7 @@
     "email": "bar@mail.com",
     "input": "This is an example entry.",
     "id": "61301ce2",
-    "verified": true,
+    "verified": false,
     "bookmarked": true,
     "deleted": false
   },
@@ -13,8 +13,8 @@
     "email": "bridges@netscape.net",
     "input": "This is another example entry. This entry should look like it's verified.",
     "id": "d8e00cdb",
-    "verified": true,
-    "bookmarked": false,
+    "verified": false,
+    "bookmarked": true,
     "deleted": false
   },
   {
@@ -35,94 +35,1589 @@
     "bookmarked": false,
     "deleted": true
   },
-{
-  "name": "",
-  "email": "",
-  "input": "",
-  "id": "a2522a75",
-  "verified": false,
-  "bookmarked": false,
-  "deleted": false
-},
-{
-  "name": "",
-  "email": "",
-  "input": "",
-  "id": "be77a7d3",
-  "verified": false,
-  "bookmarked": false,
-  "deleted": false
-},
-{
-  "name": "",
-  "email": "",
-  "input": "",
-  "id": "c200aee2",
-  "verified": false,
-  "bookmarked": false,
-  "deleted": false
-},
-{
-  "name": "",
-  "email": "",
-  "input": "",
-  "id": "e56b073b",
-  "verified": false,
-  "bookmarked": false,
-  "deleted": false
-},
-{
-  "name": "",
-  "email": "",
-  "input": "",
-  "id": "187861f5",
-  "verified": false,
-  "bookmarked": false,
-  "deleted": false
-},
-{
-  "name": "",
-  "email": "",
-  "input": "",
-  "id": "e98de9d9",
-  "verified": false,
-  "bookmarked": false,
-  "deleted": false
-},
-{
-  "name": "",
-  "email": "",
-  "input": "",
-  "id": "46847379",
-  "verified": false,
-  "bookmarked": false,
-  "deleted": false
-},
-{
-  "name": "",
-  "email": "",
-  "input": "",
-  "id": "27f36b44",
-  "verified": false,
-  "bookmarked": false,
-  "deleted": false
-},
-{
-  "name": "",
-  "email": "",
-  "input": "",
-  "id": "2a6491f5",
-  "verified": false,
-  "bookmarked": false,
-  "deleted": false
-},
-{
-  "name": "",
-  "email": "",
-  "input": "dsdaf",
-  "id": "1698bd59",
-  "verified": false,
-  "bookmarked": false,
-  "deleted": false
-}
+  {
+    "name": "Pam Sester",
+    "input": "There was a group of us that went to Washington, DC to represent Arkansas.",
+    "id": "04a308e9",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Christopher Mercer",
+    "input": "Everybody relates to the '27 flood. Supposedly it was the most devastating flood we've had in the history of this state.",
+    "id": "2187502d",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Beatrice Shelby",
+    "input": "And I learned love from my family, they always seemed to love each other. And even when we didn't have a lot we learned to share.",
+    "id": "cce2f2f4",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Betty Bumpers",
+    "input": "I remember a big Sycamore tree, which is still standing, where they would hang cotton scales and I remember picking cotton there.",
+    "id": "6b71dda6",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Richard Mason",
+    "input": "I think back on my life and some of the things that really shine for me are the time that I spent in the woods.",
+    "id": "9e7eb9f4",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "John Odonell",
+    "input": "See the church not doing anything. And certainly the Baptists didn't do anything. They were all segregationists. Episcopalians\u0017'cept for the\u0017some of the fathers of the Episcopal Church spoke out, you know, against segregation and that kind of thing.",
+    "id": "46ad3f39",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Caddo creation story, Acee Blue Eagle",
+    "input": "The [Caddos] divided into groups, each with a leader and a drum. Neesh . . . warned them never to look back the way they had come.",
+    "id": "c5ddae02",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Dale Bumpers",
+    "input": "And that's the first time that my mother convinced us that we weren't going to starve to death -- cause she was a pessimist.",
+    "id": "18e4b3f6",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Gordon Morgan",
+    "input": "You couldn't operate communities if you didn't have a degree of harmony and understanding.",
+    "id": "f95517f1",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Caddo traditional story, Carnegie Institution of Washington",
+    "input": "Coyote saw [a spirit] and at once went to the grass house. He took his seat near the door, and there sat with the singers . . .",
+    "id": "3860666b",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Bonnie Montgome",
+    "input": "We had a lot of things that were censored that other American kids our age had access to.   ",
+    "id": "478a0f8f",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Timothy K. Pertula, Texas State Historical Society",
+    "input": "[T]he term Caddo [once] denoted only one of at least twenty-five distinct but closely affiliated groups centered around the Red River in Texas, Arkansas, Louisiana, and Oklahoma. ",
+    "id": "9d4cb5e1",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "E. Lynn Harris",
+    "input": "I remember applying for Cardinal Twenty, which was an organization that was supposed to be the top twenty freshman men. And I was, like, the first black guy ever to get in Cardinal Twenty.",
+    "id": "2e457c07",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Christopher Mercer",
+    "input": "From 1930 to 1939, it was hard, hard times. The banks closed. The economy was hard. And this was during the time that I was growing up. I was in school. When I look back on it now, I realize how little we had. But we were all happy.",
+    "id": "6274903a",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Gerald Alley",
+    "input": "And my mother was\u0017you could tell she was\u0017she was affected, but she wanted to make sure she presented a sense of\u0017not strength, but strength\u0017quiet strength. ",
+    "id": "535daa40",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Texas Beyond History",
+    "input": "In June, 1542 . . . Moscoso entered into the Caddo world and over the next seven months passed through Caddo lands in present-day Arkansas . . . . Perhaps not far behind were the Old World epidemic diseases. . . . impacts of Old World intruders reverberated all across North America.",
+    "id": "a7fc29fb",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Caddo traditional story, Carnegie Institution of Washington",
+    "input": "In the [Caddo] beginning . . . there was no such thing as death. Every one continued to live until there were so many people that there was . . . [no more] room . . . . ",
+    "id": "1a2f6d58",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Ida Adcox",
+    "input": "I remember goin' to school and they had a soup line, they called it, and they had hot chocolate for the children and had that alphabetic soup. But anyhow, I know we looked forward to that alphabetic soup and that hot chocolate.",
+    "id": "d642fef7",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Bob Lamb",
+    "input": "Then they split the crop...income...usually it was 50/50 on some crops and 75/25 on other crops.",
+    "id": "dde7d459",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Peggy Parks",
+    "input": "And the doctor got so tired of running back and forth across the street that he hooked up a line between his office and the pharmacy and that's how it got started. Finally more and more people wanted a telephone. ",
+    "id": "d00cc68f",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Timothy K. Pertula, Texas State Historical Society",
+    "input": "The first European description of the Caddo peoples came in 1542 from diarists traveling with . . . Luis de Moscoso Alvarado (Hernando De Soto had died in the spring of 1542).  ",
+    "id": "3a41e572",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "George Takei",
+    "input": "When it rained, the whole camp turned into a swamp, muck. And elderly people couldn't make that trek to the mess hall, their feet would sink in.",
+    "id": "7f32ecf6",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Jim Blair",
+    "input": "I think there has always been, you can call it the hillbilly spirit if you want to, but a firece independant suffusion of spirit in the people of NWA.",
+    "id": "360d758a",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Carrie Wilson and George Sabo III, Indians of Arkansas",
+    "input": "Quapaw . . . families related through the males were joined into clans. Clans were named for animals, heavenly bodies, or natural phenomena like thunder. ",
+    "id": "e64dbd08",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Mary Maude Angel, Quapaw Nation",
+    "input": "\u0005 and they brought corn with them too, to raise, eating on it, and they make medicine out of it too. So, they brought that with them, I guess, I know, I guess God give them, I guess. So, they bring with them.",
+    "id": "d055aa1a",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Bobby Glendy",
+    "input": "He'd come home every evening and mom would be cooking supper and after he kissed mom, washed up, he'd get his guitar out.",
+    "id": "6becf4ab",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "John Odonell",
+    "input": "And he said, \"Look. This is the biggest thing gonna happen in Arkansas. We say we love our brother and everything, and what are we gonna do about this? We're supposed to be leaders in the community.\" ",
+    "id": "b2bab16d",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Caddo creation story, Acee Blue Eagle",
+    "input": ". . . . [W]hen Wolf climbed out [to the earth] he turned around and looked back. The opening closed, shutting the rest of the people and animals under the ground, where they still remain. . . . ",
+    "id": "55418640",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Caddo creation story, Acee Blue Eagle",
+    "input": "The Caddos believe that a very long time ago, men and animals were brothers and lived together below the ground. . . . [T]heir leader, a man named Neesh (Moon), discovered the entrance to a cave leading up to the earth\u0012s surface\u0005",
+    "id": "ceb54f93",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Dorothy Gillam",
+    "input": "I remember him putting me on the back of that cotton sack, and as he picked cotton and went through there, and I was just having a ball on the back of that cotton sack.",
+    "id": "100ec00d",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Bonnie Montgome",
+    "input": "There's a lot of creativity that came out of the Searcy area.   ",
+    "id": "c8897192",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Carrie Wilson and George Sabo III, Indians of Arkansas",
+    "input": "Each [Quapaw] village also had a community building, built like a house but much larger, where people could assemble for meetings and ceremonies. ",
+    "id": "004bc71c",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Arkansas Department of Parks, Heritage, and Tourism",
+    "input": "The French called the Quapaws the \u0013Arkansas,\u0014 the Illini word for \u0013People of the South Wind,\u0014 and so named the river and the countryside after them.",
+    "id": "6315c7c4",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Janis Kearney",
+    "input": "At that time Arkansas was not diverse beyond black and white the way it is now. When I grew up in elementary school\u0017uh\u0017there were black schools; there were white schools, the way it was in most of Arkansas. ",
+    "id": "226f674b",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Donna Axum Whitworth",
+    "input": "I just loved the mountains and I would always constantly say to Daddy around Conway, \" Are we there yet?\" I just found that this Fayetteville area was sort of magical to me, even as a young child.",
+    "id": "24abed78",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Cindy Woolf",
+    "input": "When we would go home he'd be like sit down kids we're having a slide show and he's show us slides of Mountain View in the 70's.",
+    "id": "233218bc",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Texas Beyond History",
+    "input": "In effect, the Caddo made foreigners in their midst part of the tribe and created intricate social relationships with them following the same basic principles that ordered and shaped Caddo societies.",
+    "id": "9b62604f",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Caleb Ryan Martin",
+    "input": "I remember the first time I came here was with my grandparents and I was nine and I remember hearing old time string band music here.",
+    "id": "b82510af",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Edith Irby Jones",
+    "input": "I resolved that day, I was about seven years old, that I was going to be a doctor. But I was going to be a different kind of doctor. I was going to be a doctor in which money wasn't going to make any difference with me.",
+    "id": "b01a357b",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Morgan Gordon",
+    "input": "Pine Bluff is in the Delta, not completely, but it's on the verge of being in the Delta, where you have the strength of the Arkansas black population. And it was different from Conway, but you stayed, again, in your side of town. ",
+    "id": "8e3c181f",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Carrie Wilson and George Sabo III, Indians of Arkansas",
+    "input": "Quapaw Indians lived in four villages near the confluence of the Arkansas and Mississippi Rivers when they were first contacted by the French explorers Marquette and Jolliet in 1673.",
+    "id": "ae357a6e",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "JB Hunt",
+    "input": "I had five brothers and a sister. We farmed and worked in the woods, but we picked cotton like everybody else, worked in the saw mills, raised a garden.",
+    "id": "d1cdb3be",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Texas Beyond History",
+    "input": "The hostile tribes to the east (especially the Osage) had plentiful supplies of guns obtained from both French and British sources, and they aggressively raided Caddo villages and seized Caddo slaves, horses, and furs.",
+    "id": "7df39244",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Jocelyn Elders",
+    "input": "If we were needed in the field for something, we had to miss school. And in the fall you were gathering the crops, so you had to be out of school to gather the crops.",
+    "id": "98228c5e",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "JC Bonds",
+    "input": "Music was a big part of their life, it kept them going. My grandad played the fiddle and my grandmother played the fiddle and they would have a dance, a square dance on Saturday night.",
+    "id": "1f143824",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Jerry Jones",
+    "input": "As a young boy I would go down there, especially during the summers, and be a part of 50 or 100 workforce that would pick cotton.",
+    "id": "38d721f9",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Peggy Parks",
+    "input": "We had a series of hobos or tramps who would ride the railroad cars on top, and when it stopped at a station, they would get off and move into the town or city where they were and go to different homes. ",
+    "id": "2e32e0ca",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "input": "So, [the Quapaws] . . . give [the white people] so many days to come back in\u0005And . . . many days, they going to come back, and they went over there again and they meet them again and the [white people] bring flour, coffee, salt, sugar . . .\n\u0016\nMary Maude Angel, Quapaw Nation",
+    "id": "e04081f5",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Louis F. Burns, Oklahoma Historical Society",
+    "input": "A legend indicates the Osage and the other Dhegiha Sioux (Kaw, Omaha, Ponca, and Quapaw) originated at Indian Knoll near the mouth of the Green River in Kentucky.",
+    "id": "9d203666",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Quapaw Nation",
+    "input": "Tribal history indicates that as the Dhegiha people were moving they came upon the river, and a dense fog had arisen. The people created a rope by braiding a grapevine and while crossing the river, the vine snapped.",
+    "id": "ef97c968",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Morgan Gordon",
+    "input": "It was at that time badly segregated and you could draw a line between the communities. The college was in the black side of town, very bad part of town, and so forth.",
+    "id": "0c064ce3",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Milton Crenchaw",
+    "input": "He sharecropped. He was on some white person's farm and he was a sharecropper.",
+    "id": "bcce3a5d",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Arkansas Soul Writers",
+    "input": "I moved to Arkansas and it became my own land of Oz.",
+    "id": "e4a29f36",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Louis F. Burns, Oklahoma Historical Society",
+    "input": "\u0005 by 1750 the Osage had established control over half or more of Missouri, Arkansas, Oklahoma, and Kansas.",
+    "id": "ec934097",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Allan Paulose",
+    "input": "Now that I look back, it's the perfect microcosm of nature, relatively less traffic, lesser pollution, relatively affordable real estate, plus high caliber networking, diversity, and job opportunities.",
+    "id": "90a0306b",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Louis F. Burns, Oklahoma Historical Society",
+    "input": "The Osage economy relied upon hunting and gathering, but they had a sizable agriculture and an extensive trading system. . . . By 1790 they were raiding near Santa Fe. ",
+    "id": "89a7772e",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Aparna Asok",
+    "input": "I come from Kerala, India, also known as God's own country, famous for its nature and greenery. Now I am at the other end of the globe, but still feels like home.",
+    "id": "c7078876",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Janis Kearney",
+    "input": "Unlike what a lot of Northerners believe, there were relationships between blacks and whites, and things were not as segregated as I found in some of the Northern cities at the time. ",
+    "id": "730c4bba",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Carrie Wilson and George Sabo III, Indians of Arkansas",
+    "input": "Each [Quapaw] village had a leader who was advised by a council of male elders. Villages managed their affairs independently, except when matters concerned the entire tribe.",
+    "id": "5031ed70",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Tom Simmons",
+    "input": "You have to really witness the people that were here to appreciate the crowds of Hippies that came to Mountain View.",
+    "id": "3ff036d7",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Louis F. Burns, Oklahoma Historical Society",
+    "input": "By 1200 . . . the Osage . . . left the \u0013dark and bloody\u0014 ground of Kentucky. . . . [They] followed the White River to Arkansas, Missouri, and . . . Oklahoma. . . . ",
+    "id": "72dbc107",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Clemens",
+    "input": "When I came to Arkansas 20 years back it was a very small city with very few restaurants, but now I see our area growing a lot. Also I see the diversity in Arkansas improving and a lot of people are migrating here. ",
+    "id": "c107656a",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "input": "Growing up and learning Carnatic violin and Indian classical dance or Bharatanatyam in Bentonville was definitely challenging when I was younger.",
+    "id": "171e0cc9",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Arkansas Soul Writers",
+    "input": "Creativity can be found in many different places especially at night.",
+    "id": "f8b2fd1e",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Clemens",
+    "input": "The cost of living is less when compared to other states and metropolitan cities, this allows us to afford more things here like big houses.",
+    "id": "61243c5f",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Caddo creation story, Acee Blue Eagle",
+    "input": ". . . . Neesh told the people to sing and beat their drums as they moved along . . . .",
+    "id": "0a398fb5",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Nandhini",
+    "input": "It\u0012s exciting and intriguing to live through the growth spurt this region has experienced. ",
+    "id": "f1209f68",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Arkansas Soul Writers",
+    "input": "The best piece of advice that I've ever been given is to know yourself.",
+    "id": "7d79926c",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Arkansas Soul Writers",
+    "input": "I'm not an Arkansas native, I'm a new transplant, but I am grateful, very grateful for this place.",
+    "id": "622f0c47",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Janis Kearney",
+    "input": "And I went to an elementary all-black school, and by middle school, I went to what they called a \"freedom of choice\u0014 experiment, which was black parents could allow their children to go to the white school. ",
+    "id": "3c797c26",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": " George Catlin, c. 1834",
+    "input": "The Osages [are]  . . . a powerful and warlike tribe. . . . [I believe they are] . . . the tallest race of men in North America, either red or white skins\u0005",
+    "id": "a2257bd2",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Richard Mason",
+    "input": "The longer I spent in the woods the more I really appreciated being there. ",
+    "id": "72dccef4",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Medhansh Sankaran",
+    "input": "As I go off to college now I can look back upon the summers my friends and I spent at the local lakes and waterfalls. The picnics, kayaking, hikes, and playgrounds we used to run around and scream on till our parents called us to come home.",
+    "id": "556674da",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Caddo creation story, Acee Blue Eagle",
+    "input": "Because their ancestors came out of the ground the Caddos call the Middle World ina\u0012\u0017Mother\u0017and return to it when they die.",
+    "id": "690358fb",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Timothy K. Pertula, Texas State Historical Society",
+    "input": "The Spanish described several of the Caddo groups as having dense populations living in scattered settlements and having abundant food reserves of corn.",
+    "id": "bc49a6ad",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Christopher Ha",
+    "input": "Seeing that loss of culture heritage, I know is a bit of a heartache to the older generation. It's not necessarily anyone's fault, but that's just the natural progression of things as we become more naturalized in the American melting pot.",
+    "id": "afd68bd8",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Mary Gillihan",
+    "input": "They understood the value of passing along what they knew to someone else.",
+    "id": "3ac01e09",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Caddo traditional story, Carnegie Institution of Washington",
+    "input": "\u0005  [When a] whirlwind circled about the house and was about to enter, he [Coyote] closed the door. The spirit in the whirlwind, finding the door closed, whirled on by. Death forever was then introduced . . . [among the Caddos].",
+    "id": "52e218e0",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Medhansh Sankaran",
+    "input": "It\u0012s a melting pot of cultures sprouted in the most unusual of places: a unique blend tucked away in the corner of the state.  ",
+    "id": "d0d85f7b",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "Spring time in Arkansas has to be one of the most beautiful times of the year. Everything is blooming and green as far as the eye can see. ",
+    "id": "bf07ff1c",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "John Ware",
+    "input": "I think that the heart and soul of Arkansas rock and roll is in northwest Arkansas. ",
+    "id": "28e62ec3",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "Living in Arkansas means having beautiful places to visit like Roark\u0012s Bluff, Petit Jean State Park, Mount Magazine, Hawksbill Crag, and Devil\u0012s Den State Park.",
+    "id": "f05bdee6",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Quapaw Nation",
+    "input": "The Omaha people continued against the current, which is the origin of their name. The Quapaw believe our people were at the end of the rope and we floated down the river after it broke, separating our people from the group.",
+    "id": "413a94f9",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Texas Beyond History",
+    "input": "No Caddo community, town, or mound center was ever fortified, and there is little evidence in the archeological record for warfare or violent conflict between the Caddos and other peoples.",
+    "id": "57a5df7d",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Timothy K. Pertula, Texas State Historical Society",
+    "input": "The term [Caddo] derives from the French abbreviation of Kadohadacho, a word meaning \u0013real chief\u0014 or \u0013real Caddo\u0014 in the Kadohadacho dialect.",
+    "id": "b9369e97",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Caddo traditional story, Carnegie Institution of Washington",
+    "input": "The chiefs held a council . . . . Coyote jumped up and said that he thought that people ought to die . . . , for this little world was not large enough to hold all of the people . . . .",
+    "id": "5d6aacfc",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Arkansas Soul Writers",
+    "input": "I had found the kindness that I thought had vanished from the world...I found community, I found peace.",
+    "id": "998641bb",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "The current median age in Arkansas is 36. Three quarters of the population is over the age of eighteen. ",
+    "id": "c4cbc49c",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Caddo traditional story, Carnegie Institution of Washington",
+    "input": "Some other [Caddos] who lived where the long grass grew were rolled upon the earth, and when they arose they had the form of buffalo, and the grass had stuck to them and hung all like a beard under their necks. . . .",
+    "id": "7a516820",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Carrie Wilson and George Sabo III, Indians of Arkansas",
+    "input": "[Quapaw] Clan members believed they were descended from a common ancestor that gave them a strong sense of shared identity and mutual obligation.",
+    "id": "d09a5d48",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "Living in Arkansas is not always beautiful or good. Living in Arkansas also means experiencing racism, microaggressions and a dark history of violence that lives on into the current day. For many BIPOC citizens of the state it means painful experiences and histories. ",
+    "id": "e8f544f3",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Marty Stuart",
+    "input": "But the beauty of this place is that it kinda has it's own thing and it has it's own speed.",
+    "id": "f98d80c3",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Caddo traditional story, Carnegie Institution of Washington",
+    "input": "Some of the [Caddos], who lived where the big fire had burned off the grass, were rolled about in the black ashes until they became black. Again they were rolled and then they took on the form of bears.",
+    "id": "d498282c",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Mary Maude Angel, Quapaw Nation",
+    "input": "So, [the Quapaws] . . . , they camping . . . right along the ocean . . . , and they see that, uh, people come in a boat, white, white man, woman\u0005So, they didn\u0012t know what to do, they want kill them, and they don\u0012t want to, and so, they went over there and shake hands with them. ",
+    "id": "cb297597",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Quapaw Nation",
+    "input": "The Quapaw moved down the Mississippi River into Arkansas, this is the origin of the word Ogaxpa, which can be translated as \u0013downstream people.\u0014",
+    "id": "65a4e1cb",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Dane Joneshill",
+    "input": "There are people living in all kinds of ways that are full of love and kindness.",
+    "id": "09ea2d81",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "In Arkansas forests are thriving, healthy and diverse. The forestry research and careful land management allow for cleaner air, wildlife habitats, excellent soil and water quality and many well paying jobs - all of which increase the quality of life in the Natural State. ",
+    "id": "b670ecfc",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Dr. Immanuel T. Abraham",
+    "input": "After my car accident, I had a very direct and unreserved racial bias I wasn't expecting.",
+    "id": "5a127b24",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "Living in Arkansas means that you might have all four seasons in one day but during the summer time at night you are treated to the most beautiful symphony orchestrated by the local insects. ",
+    "id": "96e43ea7",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Clemens",
+    "input": "There are many farm lands here, we can get pesticide free fresh fruits and vegetables from farmers market which increases the quality of life. ",
+    "id": "c2d3759f",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "Living in Arkansas means experiencing a climate affected by the Gulf of Mexico. It means living in a humid subtropical climate that borders on a humid continental climate in parts of the state. It means hot, humid summers and mild, slightly drier winters. ",
+    "id": "85646de3",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "Living in Arkansas means living in a state where 41% of households cannot make ends meet, 17% of households are living well below the poverty line. 51% of jobs pay less than $15 an hour. ",
+    "id": "9d94ad87",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Aparna Asok",
+    "input": "Arkansas never ceases to amaze me with its nature and calmness. In Love with The Natural state though I am miles away from home.  ",
+    "id": "4524579e",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Arkansas Soul Writers",
+    "input": "How does the outdoor environment better my quality of life or anybody's quality of life? You breathe better, you think better, you eat better.",
+    "id": "0159d86b",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Paru Muni",
+    "input": "Living in Arkansas is home away from home with one big family. Got to learn more about Indian culture and be part of the celebration for all different cultures. Very welcoming community.",
+    "id": "6715f5fc",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Margaret Moore Whillock",
+    "input": "Our church was 150 years old. It's one of the oldest in Arkansas. ",
+    "id": "9678d1c1",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Medhansh Sankaran",
+    "input": "Arkansas is the one place I can call home. I was born and raised in Arkansas. I have watched it slowly grow from vast farmlands to shopping complexes and restaurants. As I grew up the city grew up along with me.",
+    "id": "f1330a6c",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "Living in Arkansas means experiencing major ice storms every five to ten years with last freezes sometimes lasting as late as mid-May. ",
+    "id": "ad862e91",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Dorothy Gillam",
+    "input": "I am certainly proud to have been an employee of the Arkansas Department of Education for the last forty-six-plus years of my life. It has been an experience and an honor and a pleasure, even in the bad times and the good times. ",
+    "id": "55f8c9e0",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Randall Ferguson",
+    "input": "I go to the farmers market, and I enjoy that. I take pride in presentin' my vegetables\u0017you know, my squash and everything\u0017corn. I wash it and have it lookin' presentable. ",
+    "id": "289ecb51",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Carrie Wilson and George Sabo III, Indians of Arkansas",
+    "input": "The Quapaws were close allies of the French in colonial Louisiana. During the subsequent Spanish regime, the Quapaws helped defend the colony from invasion by Indians allied with the English. ",
+    "id": "b5907c84",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Carrie Wilson and George Sabo III, Indians of Arkansas",
+    "input": "The Quapaws grew corn, beans, squash, pumpkins, gourds, and tobacco in fields near their villages. Fruits, nuts, seeds, and roots were collected. Deer, bear, and buffalo were hunted\u0005 ",
+    "id": "807b4b53",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Arkansas Department of Parks, Heritage, and Tourism",
+    "input": ". . . [T]he French were invited to the village of Kappa, some miles north of the mouth of the Arkansas River, and were offered a . . . peace pipe, . . . an important ceremony for forging alliances.",
+    "id": "d20b13cc",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "Living in Arkansas means living in a state where 87.2% of the population has achieved a high school graduate education level or higher. ",
+    "id": "6a21dbd5",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Indians of Arkansas, Arkansas Archaeological Survey",
+    "input": "The Osage Little Ones followed closely behind in three separate groups. As they approached the earth, the Little Ones floated down with outstretched legs and arms up like the wings of an eagle and landed in the seven treetops.",
+    "id": "61cea496",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Jimbo Mathis",
+    "input": "Well the music's tied in with all the family and the sense of place for me.",
+    "id": "9ccabaf9",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "input": "The . . . four winds . . . drain[ed] the water in great rivers. This place was called Ni-U-Kon-Ska or the Middle Waters. From this the Osage took their real name, Ni-U-Kon-Ska or People of the Middle Waters.\n\u0016",
+    "id": "2b27026a",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Indians of Arkansas, Arkansas Archaeological Survey",
+    "input": "After traveling the land for some time, the Little Ones finally came upon the village of the Isolated Earth People. . . . Together they formed the . . . Children of the Middle Waters, which is the ancient name of . . . the Osage people. ",
+    "id": "a56c6f25",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Joe Purdy",
+    "input": "In retrospect it was really nice being out there in the country when Pop built that house for us when I was really young.",
+    "id": "6a930aa3",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Arkansas Soul Writers",
+    "input": "When I moved to Arkansas I was first surprised how it was much more Midwest than traditional south I\u0012m use to in...Tennessee.",
+    "id": "83e6f97f",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Louis F. Burns, Oklahoma Historical Society",
+    "input": ". . . The Caddo speakers who were native to the area were basically a peace-loving people, as the Osage had once been. Like the Osage, they were forced to become warlike in the face of the Osage invasion. ",
+    "id": "c0ff1c6e",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "The cost of living in Arkansas was reported to be 14% lower than the rest of the nation by the Cost of Living Index. While many face home and food insecurity the cost of living still remains significantly lower than the rest of the nation. ",
+    "id": "9c9cbe1a",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Sudhir Katke",
+    "input": "Friends and colleagues from the city (Pittsburg, PA) I first immigrated to from India laughed and joked when I informed them that I was moving to Northwest Arkansas 1997. Arkansas as a state was considered backward with respect to education, development etc.",
+    "id": "271585a6",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Allan Paulose",
+    "input": "What does living in NWA mean to me? Quality living. It's given me the best overall quality of life I've had in the US in the past decade.",
+    "id": "d8a0f647",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Indians of Arkansas, Arkansas Archaeological Survey",
+    "input": "According to the Puma clan\u0012s origin tradition, . . . the Osages came from the sky, from among and of the stars. In the upper worlds, the Osages existed first as spirit beings and in their humility called themselves the Little Ones.  ",
+    "id": "6d7e773a",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Arkansas Soul Writers",
+    "input": "My identity is reflected in Arkansas by the vibe.",
+    "id": "a635928a",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Arkansas Soul Writers",
+    "input": "When I see Fayetteville Arkansas, you know I get the mountain vibe. I get that forestry vibe. I get that nature feel.",
+    "id": "5c8e0d5a",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Janis Kearney",
+    "input": "I would like to say that I am a true Arkansan, I absolutely love Arkansas and I will likely be moving back to Arkansas at some time in the future.",
+    "id": "b080e367",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Allan Paulose",
+    "input": "Having traveled to all 50 states, I had not imagined settling in NWA although I did consider its landscape and curvy roads beautiful.",
+    "id": "0d6a71a7",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "In 2021 Arkansas produced 47.5% of the total rice production in the United States. Rice is one of the top three crops grown by Arkansas farmers. ",
+    "id": "52cc7d07",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "Agriculture is a top industry in the natural state and has yielded upwards of $16 billion every year to the state\u0012s economy. ",
+    "id": "7dc9bd5f",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Joe David Rice",
+    "input": "It was a perfect spring day. In fact I should mention there was so much water going through the shoals at Wilhem you could hardly talk.",
+    "id": "2777d2fd",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Margaret Clark",
+    "input": "There were wonderful people, friends, and family and so with those things and what you bring with you, you can adjust to anything. ",
+    "id": "a89a5865",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Chris Balos",
+    "input": "There are Marshallese in every 50 States actually, but many of them come here to Arkansas because of the cost of living here. It's a lot better than other places in the country. ",
+    "id": "23609cd5",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Clemens",
+    "input": "People from other parts have started visiting Arkansas to see the natural state and museums present here. This state is a safe state, theft and robbery is less compared to other developed states, increasing the quality of life.",
+    "id": "4798b443",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Clemens",
+    "input": "Living in Arkansas is like living close to nature.",
+    "id": "7303b3a4",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "A solid piece of advice is to try and learn something new every single day. It helps create a constant state of curiosity and wonder while also aiding brain development and combating the slowing down of mental functions. ",
+    "id": "13e049d2",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "Do not forget the importance of taking care of the natural environment. Without the trees, the water, the flowers, the animals both big and small our quality of life lowers. ",
+    "id": "0b950375",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Vinitha",
+    "input": "Nothing has changed much regarding my love towards this state, this city over years . Always felt safe and secure.",
+    "id": "81c039df",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Arkansas Soul Writers",
+    "input": "Let the growth be organic and the kinship be forever.",
+    "id": "006f0015",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Arkansas Soul Writers",
+    "input": "Be a walker who leaves a memorable trace.",
+    "id": "468e0adf",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Arkansas Soul Writers",
+    "input": "One of the things that I hope for the future is peace of mind for everyone.",
+    "id": "382ac18e",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "Living in Arkansas means living in the only state that actively mines diamonds!",
+    "id": "546c8086",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Arkansas Soul Writers",
+    "input": "Going into the future we have to figure out how to get along with one another and find that balance and that understanding for each and every individual.",
+    "id": "14e8ffeb",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "Living in Arkansas means living in the state with the smallest national park in the United States. Hot Springs national park has springs that reach 143 degrees Fahrenheit! ",
+    "id": "bf829412",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Arkansas Soul Writers",
+    "input": "Finding love is similar to trusting the leaves to fall from the tree.",
+    "id": "edd9459c",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Willi Carlisle",
+    "input": "Half the reason that I came to Arkansas was for the old-time music.",
+    "id": "96170531",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Melisa Laelan",
+    "input": "And Springdale, Arkansas, has the most and largest concentration of Marshallese here in the state.",
+    "id": "34edbd19",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "input": "Bentonville, Northwest Arkansas has been very welcoming to me from the very beginning til now.",
+    "id": "9d1e0867",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Pearlyn",
+    "input": "My identity is represented in Arkansas as diversity steadily increases within the population. The different cultures brought together in this small area brings comfort to every person.",
+    "id": "ef44116c",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "The natural environment in Arkansas includes seven major natural geologic divisions: the Ozark Mountains, the Arkansas Valley, the Ouachita Mountains, the West Gulf Coastal Plain, the Mississippi Alluvial Plain and Crowley\u0012s Ridge. ",
+    "id": "263907af",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "There is so much wisdom in trees and in nature and sometimes some fresh air and some time outside can help solve a problem faster. Toes in the grass is a good grounding tool as well. ",
+    "id": "4471b313",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Srividya",
+    "input": "Whenever I used to travel to India, it felt like I was going home. Now, landing at XNA airport is like coming home. ",
+    "id": "ca60d708",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Pearlyn",
+    "input": "In this world where cities are booming and forests and replaced by skyscrapers, Arkansas retains its breathtaking mountains and green scenery.   ",
+    "id": "f6861dfd",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "A good piece of advice for living in Arkansas is layered clothing. As seasons can sometimes shift quickly layered clothing allows for comfort while simultaneously being prepared for whatever the day may bring. A car umbrella is also a very solid investment. ",
+    "id": "2828a846",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "Understand that the way someone else treats you is a reflection of how they view themselves. It has nothing to do with your self-worth. ",
+    "id": "ee0597cd",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "Taking an afternoon drive from Northwest Arkansas to Hot Springs for example does something to your spirit. ",
+    "id": "08827aac",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "Living in Arkansas means having beautiful places to visit like Lake Ouachita, Buffalo River, Bowers Hollow Falls, Mount Nebo, Magnolia Falls and the Blanchard Springs Caverns. ",
+    "id": "1604b3b9",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "You learn much more about people when you learn to truly listen - not listening to respond - but listening to understand. ",
+    "id": "7665340b",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Sudhir Katke",
+    "input": "Having Walmart HO along with JB Hunt and Tyson businesses in NWA has really helped grow this area to its current level now. Lots of families from all over the US have begun to settle as there are several opportunities for them\u0005",
+    "id": "da576e63",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "input": "The most beautiful thing I have seen here, people from here respect other cultures and language. Everyone tries to learn the good things from each other.",
+    "id": "af6fc57b",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "Living in Arkansas means living in a state with an incarceration rate of 942 per every 100,000 people. BIPOC people are the most highly incarcerated in the state. ",
+    "id": "f348f0b6",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Sudhir Katke",
+    "input": "I have seen tremendous growth in this area which includes first and foremost the quality of school districts, infrastructure, shopping malls, movie theaters, Indian grocery stores, restaurants etc. ",
+    "id": "5c8cdb50",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Vinitha",
+    "input": "Arkansas, Bentonville is like my home now. Been here for nine years it is more of my hometown than Chennai, where I come from . Love at first sight, being its natural beauty, people and everything related to this place.  ",
+    "id": "3557544e",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Beatrice Shelby",
+    "input": "Do whatever it take so you can continue to educate yourself.",
+    "id": "287d86a9",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "A hope for the future is that Arkansas is able to bolster resources and funding for mental health. 65% of the population reported mild to severe mental health issues with not enough resources. 33% did not receive help. ",
+    "id": "2f53ee91",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "input": "Strangers would smile at me wherever I went and it made me feel like I was a part of this town already.",
+    "id": "37755fc7",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Pearlyn",
+    "input": "Nature within the state brings a feeling of tranquility and calmness. ",
+    "id": "bb5d9c15",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "input": "I grew up in a small town called Mandya in India and the experience that I grew up with was very similiar to this place.",
+    "id": "411ac60e",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Sudhir Katke",
+    "input": "After work all the family members including the kids, bachelors mingled with each other. Few groups played volleyball, few played tennis, most of the ladies would meet outside to have chitchat, cook food together on the weekends\u0005",
+    "id": "51e8b55f",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "A hope for the future is that as a state we are able to decrease the amount of AR citizens that live with housing and food insecurity.",
+    "id": "d5c98397",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Shreya Ramani",
+    "input": "I can\u0012t describe NWA as anything less than home. From the calming presence of nature in our backyards to the bustling cultural heart of our town, it\u0012s truly a blend that makes the area unique and dear to my heart.",
+    "id": "78b695bb",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "Try your best to get to know as many people that are different from you as you can - different race, different background, different age - every person has something valuable to teach us.",
+    "id": "a2cd4029",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "I do not picture myself in a certain job or house or state - I simply like to picture myself in twenty years as being happy and healthy and doing things that bring me joy surrounded by people and a community that I love and that loves me. ",
+    "id": "a9bf7046",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Vinitha",
+    "input": "The Indian culture I get to experience away from India is what makes this place even more special and close to my heart.",
+    "id": "56d4ef8e",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Sudhir Katke",
+    "input": "Till date I did not come across much resistance or opposition from the mainstream population while we decided to build a temple in NWA. We could freely host events for India's Independence Day, Diwali, and Holi every year. ",
+    "id": "02f06347",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Arkansas Soul Writers",
+    "input": "I think what's most unique and special about Bentonville, what makes Bentonville a place anybody would want to call home is how it was designed. It was designed with community in mind.",
+    "id": "d3ef2f7e",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "After two years of a pandemic and after everything we have been through collectively there are still good people in the world spreading kindness. It helps to focus on them in order to not lose hope. ",
+    "id": "af29a3e9",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Medhansh Sankaran",
+    "input": "I don\u0012t know what to expect in 20 years. I just hope the experiences I carry will further shape me as an individual.",
+    "id": "d743437b",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "The Latin American/Latinx identity is not as well reflected as one would hope it would be in terms of equality and everything that comes with that word but there is always hope for the future and for those coming after. ",
+    "id": "8e9ff49d",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Medhansh Sankaran",
+    "input": "The best piece of advice I\u0012ve ever been given was by my dad that always tells me to live in the moment and just strive to be happy.",
+    "id": "7d09d190",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "It is for the benefit of our children and our children's children to give them a world that is more beautiful than we found it. ",
+    "id": "7a372b48",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Arkansas Soul Writers",
+    "input": "One of the best pieces of advice that I was ever given was go take a walk. Take a walk when you are feeling happy, take a walk when you are feeling sad. Take a walk when you are feeling down and motivation is not there.",
+    "id": "9d090178",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Medhansh Sankaran",
+    "input": "I hope that when I come back from college that I can visit these monuments of my childhood and remember that I am just a kid from Arkansas.",
+    "id": "b29e4edf",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "In twenty years I hope the state of AR sees an increased diversity in its population and a community focused on learning from each other\u0012s cultures and sharing food, family events and customs. I hope we realize that we are stronger together. ",
+    "id": "41007ffe",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Arkansas Soul Writers",
+    "input": "When you walk in peace you start to see more light in your life.",
+    "id": "49684a5d",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "A hope for the future would be that we are able to truly concentrate on the issue of saving and preserving the planet. There are so many things we can do as a state to help. ",
+    "id": "c8a26d3e",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "A hope for the future is that we as a state are some day able to truly accept our history - both the good and ugly parts of it - in order to ensure a safe and truly equal quality of life for all of our citizens. ",
+    "id": "8b6e5d4a",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Arkansas Soul Writers",
+    "input": "My hope for the future? I see poverty being ended. I see nobody going hungry. I see nobody being homeless.",
+    "id": "ea4fe548",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Allan Paulose",
+    "input": "My hope for the future is harmony and prosperity in diversity, in NWA and beyond.",
+    "id": "79988c58",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "In twenty years I hope to see our state and its people truly thriving, developing strong communities and making sure every Arkansan has the help and support they need to make the overall health of our state better than ever before. ",
+    "id": "8b775863",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "Part of living is joy. Embrace it and laugh. ",
+    "id": "4a2f303a",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Caddo creation story, Acee Blue Eagle",
+    "input": "Soon they reached the opening. First an old man climbed out, carrying fire and a pipe in one hand and a drum in the other. Next came his wife, bringing corn and pumpkin seeds. ",
+    "id": "1292f952",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "Some advice about kindness - if you would not say it to somebody else, don\u0012t say it to yourself either. ",
+    "id": "743b8288",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Edith Irby Jones",
+    "input": "The world is going to be changed, and all of us are gonna be made better when we can understand the needs that each of us have\u0017all of us have. ",
+    "id": "6271a259",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Edith Irby Jones",
+    "input": "We\u0012ll find out that whoever the divine maker was, He made enough of everything for everybody, and all we need to do is to learn how to share it, learn how to get along, and know that everybody else deserves the same rights that we want for ourselves.",
+    "id": "43554785",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "A hope for the future is that we will realize that despite our differences we have more in common than we could ever imagine and if we were to truly work together we could accomplish some amazing and beautiful things. ",
+    "id": "48b7269f",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "A hope for the future is that our children will truly understand the power they hold to enact positive change in the world and that they will be brave enough and strong enough to use that power for good. ",
+    "id": "8aa621fc",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Noelia Cerna",
+    "input": "A wonderful piece of advice has been to concentrate on the people that are doing good things especially when times are dark. ",
+    "id": "dac0e163",
+    "verified": true,
+    "bookmarked": false,
+    "deleted": false
+  }
 ]

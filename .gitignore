@@ -1,6 +1,4 @@
 # App data
-data/textStream/*
-data/voiceForest/*
 curatedText/*
 
 # Logs
