@@ -145,6 +145,48 @@ textarea {
 
 }
 
+#canvasContainer {
+
+    max-height: 40vh;
+    /* border: 2px solid white; */
+    margin: 1em 0em;
+
+    z-index: 5;
+
+}
+
+.confirmationContainer > label {
+    margin: 0.5em;
+    display: flex;
+    font-size: 0.8em;
+    line-height: 1.2em;
+}
+
+/* .confirmationContainer > div {
+    flex-grow: 0.2;
+    display: flex;
+} */
+
+input[type="checkbox"] {
+    flex-grow: 1;
+    margin-right: 1em;
+    border: 2px solid white;
+    accent-color: white;
+}
+
+/* .confirmationContainer > input:checked ~ .checkmark {
+    background-color: #101010;
+} */
+
+.confirmationContainer > label > #disclaimer {
+    flex-grow: 1;
+}
+.confirmationContainer > label > #checkboxContainer {
+    display: flex;
+    flex-grow: 2;
+    width: 20vw;
+}
+
 #btn-submit {
     color: white;
 }
@@ -167,6 +209,30 @@ textarea {
     margin: 0.8em;
     text-align: center;
     word-wrap: break-word;
+}
+
+/* .audioPlayerContainer {
+    border: 2px solid white;
+} */
+
+audio {
+    filter: invert(100%);
+    width: 60%;
+}
+
+audio::-webkit-media-controls-enclosure {
+
+    background-color: transparent;
+    border: 1px solid black;
+
+}
+
+
+
+.audioPlayer {
+
+    border: none;
+
 }
 
 .entryFooter {

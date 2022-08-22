@@ -31,7 +31,8 @@ model.html = ( ( document ) => {
 
 } )( document );
 
-Object.keys( model.html.filterButtons ).forEach( ( e ) => model.html.filterButtons[ e ].onclick = onFilterButton );
+// Object.keys( model.html.filterButtons ).forEach( ( e ) => model.html.filterButtons[ e ].onclick = onFilterButton );
+for ( const btn in model.html.filterButtons ) model.html.filterButtons[ btn ].onclick = onFilterButton;
 document.onclick = onDocumentClicked;
 
 

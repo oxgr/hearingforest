@@ -1,13 +1,17 @@
 import express from 'express';
-// import setupSocket from './socket.js'
-// import * as socket from 'socket.io';
 import { readFileSync, writeFileSync, appendFileSync, truncateSync } from 'fs'
 import { randomBytes } from 'crypto'
+import { join, dirname } from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+
+// console.debug( lamejs );
 
 // Server
 const app = express();
 app.use( express.static( 'public', { extensions: ['html'] }  ) );
-app.use( express.json() );
+app.use( express.json( { limit: '50mb' } ) );
 
 const PORT = process.env.PORT || 4060;
 const server = app.listen( PORT, () => {
@@ -33,66 +37,75 @@ model.entries = {
     voiceForest: []
 }
 
-model.rawText.textStream = readFileSync( model.filepaths.textStream )
-
-if ( model.rawText.textStream == '' ) {
-
-    console.log( `${model.filepaths.textStream} is empty.` )
-    writeFileSync( model.filepaths.textStream, '[\n]' );
-
-} else {
-
-    try {
-        model.entries.textStream = JSON.parse( model.rawText.textStream );
-        console.log( `[TS]: Parsed ${model.entries.textStream.length} entries.` );
-    } catch ( e ) {
-        console.error( e );
+// Read .json files, store result in rawText, and if it's empty, fill with brackets to start array.
+Object.keys( model.entries ).forEach( ( proj ) => {
+    
+    model.rawText[ proj ] = readFileSync( model.filepaths[ proj ] )
+    
+    if ( model.rawText[ proj ] == '' ) {
+    
+        console.log( `${model.filepaths[ proj ]} is empty.` )
+        writeFileSync( model.filepaths[ proj ], '[\n]' );
+    
+    } else {
+    
+        try {
+            model.entries[ proj ] = JSON.parse( model.rawText[ proj ] );
+            console.log( `[${proj}]: Parsed ${model.entries[ proj ].length} entries.` );
+        } catch ( e ) {
+            console.error( e );
+        }
+    
     }
 
-}
-
+})
 
 // Communication
 
-app.get( '/textStream/json/:filter', ( req, res ) => {
+app.get( '/:route/json/:filter', ( req, res ) => {
 
-    const { filter } = req.params;
+    const { route, filter } = req.params;
 
-    console.log( `[HTTP]: GET request for /textStream/json/${filter}` )
+    console.log( `[HTTP]: GET request for /${route}/json/${filter}` )
 
-    model.entries.textStream = getEntries( 'textStream' ).filter( ( e ) => !!!e.deleted );
+    model.entries[ route ] = getEntries( route ).filter( ( e ) => !!!e.deleted );
 
     let packet = [];
 
     switch ( filter ) {
 
         case 'all':
-            packet = [ ...model.entries.textStream ];
+            packet = [ ...model.entries[ route ] ];
             break;
 
         case 'verified':
-            packet = model.entries.textStream.filter( ( e ) => !!e.verified );
+            packet = model.entries[ route ].filter( ( e ) => !!e.verified );
             break;
 
         case 'bookmarked':
-            packet = model.entries.textStream.filter( ( e ) => !!e.bookmarked );
+            packet = model.entries[ route ].filter( ( e ) => !!e.bookmarked );
             break;
 
         case 'unlabelled':
-            packet = model.entries.textStream.filter( ( e ) => !e.verified && !e.bookmarked );
+            packet = model.entries[ route ].filter( ( e ) => !e.verified && !e.bookmarked );
             break;
 
     }
+
+    packet.filter( e => !e.deleted );
 
     res.send( packet )
 
 } )
 
-app.post( '/textStream', ( req, res ) => {
+app.post( '/:route/input', ( req, res ) => {
 
+    const { route } = req.params;
     const data = req.body;
+    
+    console.log( `[HTTP]: POST request for /${route}/input` )
 
-    handleInput( data, '/textStream' );
+    handleInput( data, route );
 
     res.send( {
         response: 'ok'
@@ -100,24 +113,26 @@ app.post( '/textStream', ( req, res ) => {
 
 } )
 
-app.post( '/textStream/curate', ( req, res ) => {
+app.post( '/:route/curate', ( req, res ) => {
 
-    console.log( '[HTTP]: POST request for /textStream/curate' );
-
+    const { route } = req.params;
     const { id, action } = req.body;
-  
-    console.log( `[HTTP]: POST id: ${id}, action: ${action}` );
+    
+    console.log( `[HTTP]: POST request for /${route}/curate` )
+    
+    model.entries[ route ] = getEntries( route );
 
-    model.entries.textStream = getEntries( 'textStream' );
-
-    let targetEntry = model.entries.textStream.find( ( e ) => e.id === id );
+    let targetEntry = model.entries[ route ].find( ( e ) => e.id === id );
 
     if ( !targetEntry ) {
-        console.log( `Could not find entry with id: ${id}` )
+        const msg =  `Could not find entry with id: ${id}`;
+        console.log( msg )
+        res.send( {
+            message: msg
+        })
         return;
     }
 
-    let label = ''
     let state = false;
 
     switch ( action ) {
@@ -134,9 +149,9 @@ app.post( '/textStream/curate', ( req, res ) => {
 
         case 'delete':
             targetEntry.deleted = !targetEntry.deleted;
-            const index = model.entries.textStream.indexOf( targetEntry );
-            console.log( 'index:', index );
-            // model.entries.textStream.splice( model.entries.textStream.indexOf( targetEntry ), 1 );
+            state = targetEntry.deleted;
+            // const index = model.entries[ route ].indexOf( targetEntry );
+            // console.log( 'Index:', index );
             break;
 
         default:
@@ -145,7 +160,7 @@ app.post( '/textStream/curate', ( req, res ) => {
 
     }
 
-    writeFileSync( model.filepaths.textStream, JSON.stringify( model.entries.textStream, null, 2 ) )
+    writeFileSync( model.filepaths[ route ], JSON.stringify( model.entries[ route ], null, 2 ) )
 
     res.status( 200 ).send( {
         message: 'ok',
@@ -154,48 +169,82 @@ app.post( '/textStream/curate', ( req, res ) => {
 
 } )
 
+app.get( '/voiceForest/audio/:id', ( req, res ) => {
+
+    const { id } = req.params;
+
+    try {        
+        res.status( 200 ).sendFile( join( __dirname, 'data', 'voiceForest', `${id}.mp3` ) );
+    } catch ( e ) {
+        console.error( e );
+        res.status( 418 ).send( {
+            message: `Error: Could not find ${id}.mp3`
+        })
+    }
+
+
+})
+
 function handleInput( data = {}, route = '' ) {
 
+    // Setup data
+    const inputObj = {
+        name: data.name,
+        email: data.email,
+        input: route == 'voiceForest' ? Buffer.from( Object.values( data.input ) ) : data.input,
+        id: randomBytes( 4 ).toString( 'hex' ),
+        verified: data.verified || false,
+        bookmarked: false,
+        deleted: false
+    }
+    
     console.log( 'Input received:' );
-
-    const inputObj = { ...data }
     console.log( inputObj );
-    inputObj.id = randomBytes( 4 ).toString( 'hex' );
-    inputObj.verified = false;
-    inputObj.bookmarked = false;
-    inputObj.deleted = false;
-
+    
     switch ( route ) {
 
-        case '/textStream':
+        case 'textStream':
 
-            // Cut bracket and line break at the end before appending.
-            const contents = readFileSync( model.filepaths.textStream );
-            const len = contents.length - 2;
-            truncateSync( model.filepaths.textStream, len );
-
-            // Add obj to array in ,txt
-            const sep = contents[ contents.length - 3 ] == 91 ? '\n' : ',\n'
-            const inputObjStr = JSON.stringify( inputObj, null, 2 );
-            const closing = '\n]';
-            appendFileSync( model.filepaths.textStream, sep + inputObjStr + closing );
-
+            let textToPrint = inputObj.input;
+            if ( inputObj.name ) textToPrint += '\n\n' + inputObj.name;
             // Create an individual .txt file
             try {
-                writeFileSync( `./data/textStream/${inputObj.id}.txt`, inputObj.input, { flag: 'wx' } )
+                writeFileSync( `./data/textStream/${inputObj.id}.txt`, textToPrint, { flag: 'wx' } )
             } catch ( e ) {
                 console.error( e )
             }
 
             break;
 
+        case 'voiceForest':
 
-        case '/voiceForest':
-
+            const mp3Filename = `${inputObj.id}.mp3`
+            
+            // Create an individual .mp3 file
+            try {
+                writeFileSync( `./data/voiceForest/${mp3Filename}`, inputObj.input, { flag: 'wx' } )
+            } catch ( e ) {
+                console.error( e )
+            }
+            
+            inputObj.input = mp3Filename;
 
             break;
 
     }
+
+    console.log( inputObj );
+
+    // Cut bracket and line break at the end before appending.
+    const contents = readFileSync( model.filepaths[ route ] );
+    const len = contents.length - 2;
+    truncateSync( model.filepaths[ route ], len );
+
+    // Add obj to array in .json file.
+    const sep = contents[ contents.length - 3 ] == 91 ? '\n' : ',\n'    // If the last character after truncating is a bracket i.e. empty array, don't add comma.
+    const inputObjStr = JSON.stringify( inputObj, null, 2 );
+    const closing = '\n]';
+    appendFileSync( model.filepaths[ route ], sep + inputObjStr + closing );
 
     return false;
 

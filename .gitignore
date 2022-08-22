@@ -1,5 +1,7 @@
 # App data
-data/*/*
+data/textStream/*
+data/voiceForest/*
+curatedText/*
 
 # Logs
 logs
@@ -128,3 +130,5 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+data/.DS_Store
+.DS_Store

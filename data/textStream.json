@@ -4,23 +4,23 @@
     "email": "bar@mail.com",
     "input": "This is an example entry.",
     "id": "61301ce2",
-    "verified": false,
+    "verified": true,
     "bookmarked": true,
     "deleted": false
   },
   {
     "name": "Crystal",
     "email": "bridges@netscape.net",
-    "input": "This is another example entry. This entry should look like it's verified. Verifying an entry means it can now be integrated into the actual artwork.",
+    "input": "This is another example entry. This entry should look like it's verified.",
     "id": "d8e00cdb",
-    "verified": false,
-    "bookmarked": true,
+    "verified": true,
+    "bookmarked": false,
     "deleted": false
   },
   {
     "name": "Listening Forest",
     "email": "",
-    "input": "You can also bookmark an entry to save it for later. This is useful for entries that need a second look or ones that need to be remembered.",
+    "input": "Here's another entry that's bookmarked!",
     "id": "3724c344",
     "verified": false,
     "bookmarked": true,
@@ -32,338 +32,95 @@
     "input": "If you press the X icon on the bottom-right of an entry, you can delete it from the archive. Be careful - once you delete an entry, it's gone forever!",
     "id": "0b15280a",
     "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "JB Hunt",
-    "email": "",
-    "input": "daddy worked on the oil well in Hebert. School house up the road two blocks and the teachers stayed with them. Had 2 older brothers and he wanted to go to school even before he was old enough because the teachers brought him. Worked in sawmills and picking cotton, and milked cows",
-    "id": "98dd575e",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "Beatrice Shelby",
-    "email": "",
-    "input": "4 sisters, 4 brothers; talked about childhood raising chicken and protecting \nvegetables, and canning fruit, milking cows, churning butter. Got a freezer and stopped canning so much. Good neighborly relations where ppl would share with one another.",
-    "id": "67f466c1",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "Betty Bumpers",
-    "email": "",
-    "input": "talked about land and cotton fields and Sycamore trees. Cotton scales. Grandfather would plant corn and peas, and she would bring a drink of water to him and she would help him pick peas. In return he would give her a penny. Left the farm when she was 12.",
-    "id": "721094f4",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "Bob Lamb",
-    "email": "",
-    "input": "father would drive through town to look for people who would chop cotton for the day. Had three families that lived on the farm and worked with him all the time.  Landowner provided land and seed, and the sharecropper would provide the labour and the equipment.",
-    "id": "9ac40d7f",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "CC Merrcer",
-    "email": "",
-    "input": "Moved to Arkansas in 1927, when he was 3 yrs old. Talked about going to see the flood and it seemed to him like an ocean and how the flood caused significant aspects of the city (not clear which) to be redesigned. ",
-    "id": "5943d023",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "Dale Bumpers",
-    "email": "",
-    "input": "Father was a clerk in Charleston hardware and furniture store, was the first \ntime they had financial security that ensured they could eat 3 meals/day.",
-    "id": "f3fa535b",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "Donna Axum Whitworth",
-    "email": "",
-    "input": "To drive from El Dorado to Fayetteville in the early days for school or bankers association would take 8 hours because of the mountain roads and if one got stuck behind a watermelon or a chicken truck it would take forever. NW Arkansas was less muggy than the southern part.",
-    "id": "8e285158",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "Dorothy Gillam",
-    "email": "",
-    "input": "Remembers her father picking cotton. Too young to pick cotton herself, a fun thing for her was to ride on his cotton sack. “That’s all I remember of picking cotton. Thank God I didn’t have to pick cotton, but I am sure he picked enough for me",
-    "id": "65f1edff",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "Irby Jones",
-    "email": "",
-    "input": "At 7yrs-old she remembers her brother being very ill and her mother sobbing with her head on a table for fear that he would die. She says that that day she resolved to be a doctor when she grew up – not a doctor concerned with money, but to help those who were less fortunate.",
-    "id": "bf678c4d",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "George Haley",
-    "email": "",
-    "input": "Dean said they could not study in the library, could not use student restrooms. At the beginning they used the Dean’s private restroom. Then it was decided they (Black students) would use the faculty restrooms. ",
-    "id": "2eb3b493",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "George Takei",
-    "email": "",
-    "input": "Army barracks in internment camp. Arranged in military style - a dozen barracks in a row and in the middle was a mess hall, laundry room, and shower. When it rained, the whole camp turned into a swamp. His \nfather had ppl build boardwalks connecting the essential places.",
-    "id": "f5cbd955",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "Janis Kearney",
-    "email": "",
-    "input": "Loves Arkansas. Ambassador of Arkansas and the university. Has \ncontributed so much to her journey and who she is now.",
-    "id": "5c5869d0",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "Jerry Jones",
-    "email": "",
-    "input": "Granddad was a landowner who also rented it. Manual cotton picking was prevailing in that area. Cultivated and grew crops using mules. Remembers large picking crews and how he felt powerful even as an 8-9yr old whose grandfather was a landowner.",
-    "id": "bd6497cf",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "Jim Blair",
-    "email": "",
-    "input": "Always felt that ppl of NW Arkansas were ridgerunners - came across the Carolinas and Tennessee and passed up all the fertile lowland, and went to the highlands where the soil was not that deep and they did that for the sake of independence. Entrepreneurs were ground-breakers.",
-    "id": "cf675fd1",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "Jocelyn Elders",
-    "email": "",
-    "input": "If they needed ppl to pick the crops, they needed to miss school as kids. \nThey were ashamed to admit this, but many kids were doing the same. ",
-    "id": "3381b452",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "Margaret Clark",
-    "email": "",
-    "input": "Pine Bluff not a beautiful city to her, didn’t like lack of opportunity, but there \nwere wonderful ppl there",
-    "id": "47d07fe9",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "Mike Beebe",
-    "email": "",
-    "input": "Beautiful place and after a while you take to it. Remote where he lived- no tv, \nand the progress today shows the innovation of the past century",
-    "id": "c078d35f",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "Peggy Parks",
-    "email": "",
-    "input": "Talked about a doctor in her youth who traveled by horseback, “even into Indian territory,” which was Oklahoma. His brother was a pharmacist who lived across the street. Tired of walking across the street, he constructed a line between the two houses and this was the beginning.",
-    "id": "fc12ffd4",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "Margaret Moore",
-    "email": "",
-    "input": "Arkansas Methodist church 150 years old – one of the oldest churches in \nUS. Hillary (Clinton, I assume) was invited to speak there and she accepted.",
-    "id": "724e95e1",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "Melisa Laelen",
-    "email": "",
-    "input": "Plan B is getting ready in case of climate crisis. Wants to make sure there is \nreadiness in Springdale Arkansas to protect the Marshallese population.",
-    "id": "e0078740",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "Morgan Gorgon",
-    "email": "",
-    "input": "Town badly segregated at the time – could draw a line between the communities. College was in “Black part of town; very bad part of time.” The numbers game was bigger because you had tons of ppl bc Pine Bluff was in the delta. He never went into the white part of town.",
-    "id": "7e4b1a93",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "Peggy Parks",
-    "email": "",
-    "input": "During the depression, hoboes or tramps would ride atop the railroad cars and disembark in towns looking for some work for which they would be compensated by a meal. They would come to the door of the house and her mother would give them work and was a very good cook.",
-    "id": "a33f73db",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "Juanita McClellan",
-    "email": "",
-    "input": "Remembers sitting on porch of house, which was near the river and back then babies wore long dresses til about 1 yr old. She remembers holding the tail of her brother’s dress so he wouldn’t fall off the porch",
-    "id": "b3b5406b",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "Juanita McLellan",
-    "email": "",
-    "input": "Remembers sitting on porch of house, which was near the river and back then babies wore long dresses til about 1 yr old. She remembers holding the tail of her brother’s dress so he wouldn’t fall off the porch",
-    "id": "6370389e",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "Janis Kearney",
-    "email": "",
-    "input": "At that time, Arkansas was not as diverse beyond Black and white as it is now. The schools were segregated, but in middle school her parents put her in a “freedom of choice experiment” which allowed her to go to school with white kids.  ",
-    "id": "901d0588",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "Ila Adcox",
-    "email": "",
-    "input": "Remembers the soupline at school where they served alphabet soup and hot \nchocolate.",
-    "id": "96ca975f",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "George Takei",
-    "email": "",
-    "input": "Father became block manager in internment camp bc he was able to communicate across generations and was often making announcements at meals. Mess hall became social center as youth would have dances there and record players brought in. He hated the smell of pungent disinfectant.",
-    "id": "6066da42",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "Gerald Alley",
-    "email": "",
-    "input": "Recalls go to “the” funeral (not sure which) and he remembers two things: the \nsign of the church: Neon blue Saint James United Methodist Church, and that it was raining against the side of the car. Remembers mother demonstrating quiet strength. \"Strength through family.\"",
-    "id": "f0ce48c0",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "Dr. Sheldon Rinklon",
-    "email": "",
-    "input": "Doctor at Springdale clinic. Elderly patients relieved because he speaks \nMarshallese and so they can express themselves and have their needs met. ",
-    "id": "f703e242",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "Donna Axum Whitworth",
-    "email": "",
-    "input": "Parents supportive of her performing arts aspirations. She competed in Miss America.In their minds she had avant-garde ideas in wanting to work in \ntelevision. Mother thought she needed to be trained to be a secretary, teacher, or nurse. She charted her own path to their chagrin.",
-    "id": "e27f0469",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "Christopher Mercer",
-    "email": "",
-    "input": "Banks closed in the 1930s which was devastating to his family. His parents were both successful. When banks closed, they had enough money to put both him and his brother through college and then the banks closed and they plunged into poverty. 1930-39, army drafting, \"hard times.\"",
-    "id": "d253f3c5",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "Benedict Maddison",
-    "email": "",
-    "input": "Brief history of nuclear testing. Prior to the nuclear testing program, Marshallese Islands were under Japanese control. After the US pushed out the Japanese, that’s when the nuclear testing project began. Strategic area for US, which is why so many ppl didn’t know about the proj",
-    "id": "4d3263ca",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "",
-    "email": "",
-    "input": "Immigrated to Arkansas from India. Did not know how to react to the hogs, which she understood as dirty animals. She was then able to equate their presence with the wild boar avatar of the Hindu god Vishnu, which helped her to change her attitude towards them.",
-    "id": "20a245af",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "",
-    "email": "",
-    "input": "Female immigrant from India tells of falling in love with Bentonville immediately impressed by its “wild” (natural) feel. Found similarities in the community with where she previously lived in India - the greenery is one thing she mentions. ",
-    "id": "a4e5140c",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "",
-    "email": "",
-    "input": "From India: Northwest Arkansas very welcoming to her from the very \nbeginning. Met many kind-hearted ppl who have become good friends. Ppl there respect other languages and cultures - she never felt like an outsider. ",
-    "id": "b569afa9",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
-  },
-  {
-    "name": "",
-    "email": "",
-    "input": "Talks about the challenges of wanting to be a dancer but having limited exposure to forms of dance in Bentonville. Expresses joy that this has changed and now has more opportunity.",
-    "id": "392d1add",
-    "verified": false,
-    "bookmarked": true,
-    "deleted": false
+    "bookmarked": false,
+    "deleted": true
   },
 {
   "name": "",
   "email": "",
-  "input": "My hope for the future is harmony and prosperity in diversity, in NWA and beyond.",
-  "id": "2362e7d4",
+  "input": "",
+  "id": "a2522a75",
+  "verified": false,
+  "bookmarked": false,
+  "deleted": false
+},
+{
+  "name": "",
+  "email": "",
+  "input": "",
+  "id": "be77a7d3",
+  "verified": false,
+  "bookmarked": false,
+  "deleted": false
+},
+{
+  "name": "",
+  "email": "",
+  "input": "",
+  "id": "c200aee2",
+  "verified": false,
+  "bookmarked": false,
+  "deleted": false
+},
+{
+  "name": "",
+  "email": "",
+  "input": "",
+  "id": "e56b073b",
+  "verified": false,
+  "bookmarked": false,
+  "deleted": false
+},
+{
+  "name": "",
+  "email": "",
+  "input": "",
+  "id": "187861f5",
+  "verified": false,
+  "bookmarked": false,
+  "deleted": false
+},
+{
+  "name": "",
+  "email": "",
+  "input": "",
+  "id": "e98de9d9",
+  "verified": false,
+  "bookmarked": false,
+  "deleted": false
+},
+{
+  "name": "",
+  "email": "",
+  "input": "",
+  "id": "46847379",
+  "verified": false,
+  "bookmarked": false,
+  "deleted": false
+},
+{
+  "name": "",
+  "email": "",
+  "input": "",
+  "id": "27f36b44",
+  "verified": false,
+  "bookmarked": false,
+  "deleted": false
+},
+{
+  "name": "",
+  "email": "",
+  "input": "",
+  "id": "2a6491f5",
+  "verified": false,
+  "bookmarked": false,
+  "deleted": false
+},
+{
+  "name": "",
+  "email": "",
+  "input": "dsdaf",
+  "id": "1698bd59",
   "verified": false,
   "bookmarked": false,
   "deleted": false

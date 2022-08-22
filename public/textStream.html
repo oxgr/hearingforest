@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    <script src="./js/script.js" type="module"></script>
+    <script src="./js/textStream.js" type="module"></script>
 
     <div class="centered">
         <div class="header">
@@ -35,15 +35,31 @@
                     </div>
                     <br>
                     <div class="form">
-                        <label for="text" hidden>Tell a story...</label>
+                        <label for="text" hidden>Write on the past, present, or future.</label>
                         <textarea 
                             name="text"
                             rows="8"
                             cols="33"
                             wrap="hard"
                             maxlength="280"
-                            placeholder="Tell a story..."
+                            placeholder="Write on the past, present, or future."
+                            required
                             ></textarea>
+                    </div>
+                    <div class="form confirmationContainer">
+                        <label class="confirmation" for="confirmation">
+                            <div id="checkboxContainer">
+                                <input class="confirmation" id="checkmark" name="confirmation" type="checkbox" required>
+                            </div>
+                            <div id="disclaimer">
+                                <p>
+                                    I understand that once my submission is verified, it will be shown to the public as part of the artwork.
+                                </p>
+                                <p>
+                                    I understand that my name and e-mail will only be used for identification purposes and will not be shared.
+                                </p>
+                            </div>
+                        </label>
                     </div>
                     <!-- <div class="form side">
                         
@@ -59,7 +75,7 @@
                     </div>
                 </form>
                 <div>
-                    <p id="submitted" hidden>Thank you for your submission!</p>
+                    <p id="submitted" hidden>Thank you for your submission.</p>
                 </div>
             </div>
         </div>
