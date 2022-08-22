@@ -3,6 +3,7 @@ import { readFileSync, writeFileSync, appendFileSync, truncateSync } from 'fs'
 import { randomBytes } from 'crypto'
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import cors from 'cors';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -11,7 +12,8 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 // Server
 const app = express();
 app.use( express.static( 'public', { extensions: ['html'] }  ) );
-app.use( express.json( { limit: '50mb' } ) );
+app.use( express.json( { limit: '10mb' } ) );
+app.use( cors() )
 
 const PORT = process.env.PORT || 4060;
 const server = app.listen( PORT, () => {
