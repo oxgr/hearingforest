@@ -193,6 +193,7 @@ function handleInput( data = {}, route = '' ) {
         email: data.email,
         input: route == 'voiceForest' ? Buffer.from( Object.values( data.input ) ) : data.input,
         id: randomBytes( 4 ).toString( 'hex' ),
+        time: Date.now(),
         verified: data.verified || false,
         bookmarked: false,
         deleted: false
