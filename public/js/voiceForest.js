@@ -72,6 +72,8 @@ window.setup = () => {
     
     model.cnv = createCanvas( 400, 400 );
     model.cnv.parent( model.html.canvasContainer );
+  
+    pixelDensity( 4 );
         
     (()=> { 
         const { width, height } = model.html.canvasContainer.getBoundingClientRect();
