@@ -435,7 +435,7 @@ async function submitButtonClicked( e ) {
     function encodeMono( samples ) {
 
         const channels = 1; //1 for mono or 2 for stereo
-        const sampleRate = 44100; //44.1khz (normal mp3 samplerate)
+        const sampleRate = 48000; //44.1khz (normal mp3 samplerate)
         const kbps = 128; //encode 128kbps mp3
         const mp3encoder = new lamejs.Mp3Encoder( channels, sampleRate, kbps );
         const buffers = [];
