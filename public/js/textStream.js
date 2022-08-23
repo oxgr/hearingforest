@@ -14,6 +14,8 @@ const model = {};
 
 model.origin = new URL( window.location.href ).origin;
 
+model.processingRequest = false;
+
 model.html = ( ( document ) => {
     // const input = document.getElementById( 'input' );
     // const submitButton = document.getElementById( 'btn-submit' );
@@ -63,6 +65,11 @@ model.html = ( ( document ) => {
     }
     
     function submitButtonClicked( e ) {
+      
+        if ( !!model.processingRequest ) return;
+
+        model.processingRequest = true;
+        model.html.form.submitButton.innerHTML = "Submitting...";
 
         console.log( {
             input: model.html.form.input,
@@ -103,6 +110,7 @@ model.html = ( ( document ) => {
         .then((response) => response.json())
         .then((data) => {
             console.log('Success:', data);
+            model.html.removeForm();
         })
         .catch((error) => {
             console.error('Error:', error);
@@ -110,30 +118,9 @@ model.html = ( ( document ) => {
     
         // model.socket.emit( 'textStream/input', JSON.stringify( packet, null, 0 ) );
         
-        model.html.removeForm();
+        
     
     }
 
 })( document )
-
-// model.socket = ( ( io ) => {
-//     const socket = io( 'http://localhost:4060' );
-    
-//     socket.on( 'print', ( arg ) => {
-//         console.log( arg )
-//     })
-
-//     socket.on( 'response', ( arg ) => {
-
-//         // console.log( `response received. arg: ${arg}` );
-
-//         if ( arg === 'ok' ) {
-//             // console.log( 'response ok, removing form...')
-//             model.html.removeForm()
-//         }
-
-//     })
-
-//     return socket;
-// })( io );
 

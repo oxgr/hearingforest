@@ -1,32 +1,52 @@
 [
-{
-  "name": "Rafael",
-  "email": "errafael@gmail.com",
-  "input": "ed791477.mp3",
-  "id": "ed791477",
-  "time": 1661279816815,
-  "verified": false,
-  "bookmarked": false,
-  "deleted": false
-},
-{
-  "name": "Rafael",
-  "email": "errafael@gmail.com",
-  "input": "d1a4332b.mp3",
-  "id": "d1a4332b",
-  "time": 1661279822948,
-  "verified": false,
-  "bookmarked": false,
-  "deleted": false
-},
-{
-  "name": "Rafael",
-  "email": "errafael@gmail.com",
-  "input": "66231374.mp3",
-  "id": "66231374",
-  "time": 1661279824445,
-  "verified": false,
-  "bookmarked": false,
-  "deleted": false
-}
+  {
+    "name": "Rafael",
+    "email": "errafael@gmail.com",
+    "input": "ed791477.mp3",
+    "id": "ed791477",
+    "time": 1661279816815,
+    "verified": false,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Rafael",
+    "email": "errafael@gmail.com",
+    "input": "d1a4332b.mp3",
+    "id": "d1a4332b",
+    "time": 1661279822948,
+    "verified": false,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "Rafael",
+    "email": "errafael@gmail.com",
+    "input": "66231374.mp3",
+    "id": "66231374",
+    "time": 1661279824445,
+    "verified": false,
+    "bookmarked": false,
+    "deleted": false
+  },
+  {
+    "name": "",
+    "email": "",
+    "input": "a3ffce67.mp3",
+    "id": "a3ffce67",
+    "time": 1661288857037,
+    "verified": false,
+    "bookmarked": false,
+    "deleted": true
+  },
+  {
+    "name": "",
+    "email": "",
+    "input": "0ccd6ccd.mp3",
+    "id": "0ccd6ccd",
+    "time": 1661289177579,
+    "verified": false,
+    "bookmarked": false,
+    "deleted": true
+  }
 ]

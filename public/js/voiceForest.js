@@ -28,6 +28,8 @@ window.setup = () => {
         record: '#CC0000',
         play: '#33CC33'
     }
+  
+    model.processingRequest = false;
     
     model.html = ( ( document ) => {
         
@@ -64,8 +66,6 @@ window.setup = () => {
         }
     
     })( document )
-    
-    console.log( model.html );
     
     model.html.form.submitButton.onclick = submitButtonClicked;
     model.html.canvasContainer.onclick = canvasClicked;
@@ -353,6 +353,8 @@ window.draw = () => {
 }
 
 function canvasClicked( event ) {
+  
+    if ( !!model.processingRequest ) return;
 
     event.preventDefault();
 
@@ -377,6 +379,9 @@ async function submitButtonClicked( e ) {
         model.html.form.confirmation.parentElement.style.border = '2px solid #CC0000';
         return;
     }
+  
+    model.processingRequest = true;
+    model.html.form.submitButton.innerHTML = "Submitting...";
 
     // MP3 encoding with lamejs
     const float32Buffer = model.audio.soundFile.buffer.getChannelData( 0 );
