@@ -187,6 +187,8 @@ app.get( '/voiceForest/audio/:id', ( req, res ) => {
 
 })
 
+app.get( '/alive', ( req, res ) => res.send( 'I') )
+
 function handleInput( data = {}, route = '' ) {
 
     // Setup data
